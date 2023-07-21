@@ -56,6 +56,10 @@ nav li a.active {
     width: 88%;
     margin-left: 78px;
 }
+.title h2{
+    padding-left: 94px;
+
+}
 
 .sec-3-title h1 {
     font-family: Poppins;
@@ -127,6 +131,7 @@ gap: 171px;
 }
 .sec-4-pic-1 .right{
     padding-top: 122px;
+    margin-left: 30px;
 }
 .sec-4-pic-2{
     margin-top: 88px;
@@ -138,4 +143,53 @@ gap: 171px;
 }
 .sec-4-pic-2 .right{
     padding-top: 122px;
+}
+/* section-5 */
+ 
+.section-5{
+margin-top: 130px;
+}
+.container .middle{
+    padding-top: 182px;
+}
+.container .right{
+    display: flex;
+    flex-direction: column;
+    
+
+    margin-right: -504px;
+
+}
+.section-5 .left{
+    margin-left: 92px;
+
+}
+ .left h3{
+    padding-top: 30px;
+    font-size: 35px;
+}
+
+.container{
+    display: flex;
+    justify-content: center; 
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #100E1D;
+    height: 200px;
+}
+.footer p{
+  
+    font-size: 1rem;
+    color: white;
+    margin-left: 30px;
+}
+.footer h3{
+padding-top: 40px;
+    color: white;
+}
+.footer .action_page{
+    padding-top: 60px;
 }
