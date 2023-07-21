@@ -88,12 +88,13 @@ nav li a.active {
 
 .section-4{
  margin-left: 135px;
+ margin-right: 135px;
 }
 .cards{
 display: flex;
 justify-content: space-between;
 margin-right: -263px;
-gap: 171px;
+gap:21px;
 
 }
 .material-symbols-outlined{
