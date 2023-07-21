@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.section-1 {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: whitesmoke;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav li a {
+    font-size: 18px;
+    display: block;
+    padding: 21px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: white;
+}
+
+/* Optional: Style the active link */
+nav li a.active {
+    background-color: #f00;
+}
+
+.banner-title {
+    margin-top: 94px;
+    margin-left: 288px;
+}
+
+.banner-title h1 {
+    font-size: 45px;
+}
+
+.Hero img {
+    border-radius: 13px;
+    width: 88%;
+    margin-left: 78px;
+}
+
+.sec-3-title h1 {
+    font-family: Poppins;
+    font-size: 25px;
+}
+
+.sec-3-title {
+    margin-left: 222px;
+    margin-top: 50px;
+
+}
+
+.sec-3-title p {
+    color: var(--gray-2, #4F4F4F);
+}
+.action_page{
+    margin-left: 222px;
+    width: 350px;
+    
+     
+    
+}
+.sec-4-title h1{
+    font-size: 36px;
+}
+
+.section-4{
+ margin-left: 135px;
+}
+.cards{
+display: flex;
+justify-content: space-between;
+margin-right: -263px;
+gap: 171px;
+
+}
+.material-symbols-outlined{
+    font-size: 4rem;
+}
+.material-symbols-outlined h2{
+    font-size: 24px;
+}
+.material-symbols-outlined  p {
+    color: var(--gray-2, #4F4F4F);
+}
+.btn{
+    margin-top: 31px;
+ font-size: 16px;
+ 
+ color: #828282;
+    border-radius: 16px;
+    padding: 11px 11px;
+}
+.btn:hover{
+   background-color:skyblue;
+}
+.material-symbols-outlined :hover{
+    background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.sec-4-pic-1{
+    margin-top: 88px;
+    display: flex;
+    justify-content: center;
+    margin-right: 159px;
+    gap: 54px;
+    border-radius: 12px;
+}
+.sec-4-pic-1 .right{
+    padding-top: 122px;
+}
+.sec-4-pic-2{
+    margin-top: 88px;
+    display: flex;
+    justify-content: center;
+    margin-right: 159px;
+    gap: 54px;
+    border-radius: 12px;
+}
+.sec-4-pic-2 .right{
+    padding-top: 122px;
+}
